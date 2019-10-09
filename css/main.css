@@ -1,21 +1,43 @@
 body {
   background-color: #c9b5ab;
-  font-family: PT Sans;
-  font-size: 0.8rem;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .8rem;
   font-weight: normal;
   line-height: 1.5;
 }
 
 h1 {
   color: #3f1622;
-  font-family: PT Sans;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 h2 {
   color: #3f1622;
-  font-family: PT sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
+}
+
+img {
+  width: 100%
+}
+
+a {
+  color: #8f2440;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ol li{
+  color: #222;
+}
+
+ul li {
+  color: #222;
+}
+
+html {
+
 }
