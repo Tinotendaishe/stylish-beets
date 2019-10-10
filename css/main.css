@@ -6,15 +6,9 @@ body {
   line-height: 1.5;
 }
 
-h1 {
+h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
-  font-weight: bold;
-}
-
-h2 {
-  color: #3f1622;
-  font-size: 1.125rem;
   font-weight: bold;
 }
 
@@ -53,12 +47,6 @@ ul li {
 dl dt {
   color: #222;
   list-style-type: none;
-  font-weight: bold;
-}
-
-.# {
-  color: #3f1622;
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
