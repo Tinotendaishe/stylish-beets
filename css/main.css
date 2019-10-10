@@ -1,9 +1,17 @@
+html {
+  text-decoration: none;
+  font-weight: normal;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+}
+
 body {
   background-color: #c9b5ab;
   font-family: "PT Sans", sans-serif;
-  font-size: .8rem;
-  font-weight: normal;
-  line-height: 1.5;
+}
+
+header {
+  font-size: 1.125rem;
 }
 
 h1, h2 {
@@ -25,15 +33,30 @@ a {
 .quote {
   font-style: italic;
   color: #222;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
-a:hover {
-  text-decoration: none;
+.quote cite {
+  font-size: .8rem;
 }
 
 .afact {
+  color: #222;
+  font-family: "PT Serif";
   font-weight: bold;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+  font-family: "PT Sans";
+}
+
+figcaption {
+  color: #222;
+  font-family: "PT Serif";
+  font-style: italic;
+  text-align: center;
 }
 
 ol li {
@@ -48,8 +71,4 @@ dl dt {
   color: #222;
   list-style-type: none;
   font-weight: bold;
-}
-
-html {
-  text-decoration: none;
 }
